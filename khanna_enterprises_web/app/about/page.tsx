@@ -6,9 +6,11 @@ interface AboutPageProps {
 
 const AboutPage: NextPage<AboutPageProps> = () => {
   return (
-    <div>
-      <h1>About Us</h1>
-      <p>Welcome to our About page!</p>
+    <div className='flex h-screen w-screen'>
+      <div className='mx-auto'>
+        <h1>About Us</h1>
+        <p>Welcome to our About page!</p>
+      </div>
     </div>
   );
 };
