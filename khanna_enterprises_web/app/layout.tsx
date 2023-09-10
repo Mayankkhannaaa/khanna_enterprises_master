@@ -18,13 +18,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang='en'>
-      <body
-        className={`${inter.className} h-screen overflow-x-hidden overflow-y-scroll flex`}
-      >
-        <div className='bg-white text-black'>
+      <body className={`${inter.className}`}>
+        {/* <div className='pt-28 h-screen'>{children}</div> */}
+        <div className=' bg-white text-black'>
           <Navbar />
-          {/* <div className='pt-28 h-screen'>{children}</div> */}
-          <div className=' h-screen'>{children}</div>
+          {children}
           <Footer />
         </div>
       </body>

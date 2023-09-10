@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 const Navbar = () => {
   return (
-    <nav className='bg-gray-100 opacity-70 p-6 shadow-md shadow-slate-500 fixed top-3 left-1/2 transform -translate-x-1/2 w-2/3 rounded-lg flex justify-center'>
+    <nav className='bg-white opacity-70 p-6 shadow-md shadow-slate-500 fixed top-3 left-1/2 transform -translate-x-1/2 w-10/12 rounded-lg flex justify-center'>
       <div className='w-full flex'>
         <div className='fixed'>
           <p className='pr-4 text-black'>Khanna Ent</p>
