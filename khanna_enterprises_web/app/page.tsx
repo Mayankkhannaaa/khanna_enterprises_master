@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import team0img from '../public/1033-removebg-preview.png';
+import girlCloth from '../public/girlPhoto.jpeg';
 import blackCloth from '../public/morflax-studio-removebg-preview.png';
 import blackTshirt from '../public/Isolated_black_t_shirt_opened-removebg-preview.png';
 
@@ -306,6 +307,43 @@ export default function Home() {
               In-House manufacturing!
             </p>
           </div>
+        </div>
+      </div>
+      <div className='md:relative w-11/12 xs:flex-col md:flex-row md:flex items-center justify-around mx-auto mt-5 sm:mt-10 py-10 p-4'>
+        <div className='md:relative w-full md:w-2/5'>
+          <Image
+            alt='team'
+            src={girlCloth}
+            style={{ objectFit: 'cover' }}
+            className='bg-transparent w-3/5 mx-auto'
+            // width={600}
+            // height={200}
+          />
+          <Image
+            alt='team'
+            src={girlCloth}
+            style={{ objectFit: 'cover' }}
+            className='hidden md:block bg-transparent absolute left-96 top-44 border-4 border-white'
+            width={210}
+            // height={150}
+          />
+        </div>
+
+        <div className='w-full md:w-2/5 md:mr-10 mt-10 md:mt-0'>
+          <p className='text-xl md:text-4xl lg:text-6xl mb-5 md:mb-20'>
+            Why choose us?
+          </p>
+          <p>
+            Discover the essence of style with our clothing brand. We blend
+            fashion trends with unmatched quality, offering you an exclusive
+            wardrobe that defines your uniqueness. Elevate your everyday look
+            and shop with confidence, knowing that you're choosing a brand
+            committed to your style, comfort, and individuality. Experience
+            fashion redefined with us.
+          </p>
+          <button className='bg-orange-400 opacity-90 p-4 sm:p-5 px-8 sm:px-10 rounded-md text-white mt-5 sm:mt-10 md:mt-20 md:ml-10'>
+            <p>Order Now</p>
+          </button>
         </div>
       </div>
     </div>
