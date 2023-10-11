@@ -156,10 +156,10 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className='my-auto overflow-auto sm:mt-10 mx-auto w-10/12 py-10 '>
+      <div className='my-auto overflow-auto sm:mt-10 mx-auto w-10/12 py-10'>
         <div className='mx-auto'>
           <div className='overflow-x-auto flex md:justify-around xs:justify-between py-10'>
-            <div className='flex-none mx-2 shadow-lg hover:shadow-xl'>
+            <div className='flex-none mx-2 shadow-lg hover:shadow-xl transition-transform transform hover:scale-105'>
               <div className='flex flex-col items-center'>
                 <Image
                   alt='team'
@@ -183,7 +183,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className='flex-none mx-2 shadow-lg hover:shadow-xl'>
+            <div className='flex-none mx-2 shadow-lg hover:shadow-xl transition-transform transform hover:scale-105'>
               <div className='flex flex-col items-center'>
                 <Image
                   alt='team'
@@ -206,7 +206,7 @@ export default function Home() {
                 </p>
               </div>
             </div>
-            <div className='flex-none mx-2 shadow-lg hover:shadow-xl'>
+            <div className='flex-none mx-2 shadow-lg hover:shadow-xl transition-transform transform hover:scale-105'>
               <div className='flex flex-col items-center'>
                 <Image
                   alt='team'
@@ -229,7 +229,7 @@ export default function Home() {
                 </p>
               </div>
             </div>
-            <div className='flex-none mx-2 shadow-lg hover:shadow-xl'>
+            <div className='flex-none mx-2 shadow-lg hover:shadow-xl transition-transform transform hover:scale-105'>
               <div className='flex flex-col items-center'>
                 <Image
                   alt='team'
@@ -277,32 +277,32 @@ export default function Home() {
       {/* Content in the fifth section */}
       <div className='flex items-center justify-center mt-5 sm:mt-10'>
         <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 p-4'>
-          <div className='bg-blue-200 p-4 rounded-lg shadow-lg'>
+          <div className='bg-blue-200 p-4 rounded-lg shadow-lg transition-transform transform hover:scale-105'>
             <p className='text-lg sm:text-xl font-semibold truncate'>
               Buy for your business!
             </p>
           </div>
-          <div className='bg-green-200 p-4 rounded-lg shadow-lg'>
+          <div className='bg-green-200 p-4 rounded-lg shadow-lg transition-transform transform hover:scale-105'>
             <p className='text-lg sm:text-xl font-semibold truncate'>
               Buy for yourself!
             </p>
           </div>
-          <div className='bg-yellow-200 p-4 rounded-lg shadow-lg'>
+          <div className='bg-yellow-200 p-4 rounded-lg shadow-lg transition-transform transform hover:scale-105'>
             <p className='text-lg sm:text-xl font-semibold truncate'>
               Quality in an affordable price!
             </p>
           </div>
-          <div className='bg-blue-200 p-4 rounded-lg shadow-lg'>
+          <div className='bg-blue-200 p-4 rounded-lg shadow-lg transition-transform transform hover:scale-105'>
             <p className='text-lg sm:text-xl font-semibold truncate'>
               Top-class customer experience!
             </p>
           </div>
-          <div className='bg-green-200 p-4 rounded-lg shadow-lg'>
+          <div className='bg-green-200 p-4 rounded-lg shadow-lg transition-transform transform hover:scale-105'>
             <p className='text-lg sm:text-xl font-semibold truncate'>
               Trend creators and quick trend adaptability!
             </p>
           </div>
-          <div className='bg-yellow-200 p-4 rounded-lg shadow-lg'>
+          <div className='bg-yellow-200 p-4 rounded-lg shadow-lg transition-transform transform hover:scale-105'>
             <p className='text-lg sm:text-xl font-semibold truncate'>
               In-House manufacturing!
             </p>
@@ -341,9 +341,35 @@ export default function Home() {
             committed to your style, comfort, and individuality. Experience
             fashion redefined with us.
           </p>
-          <button className='bg-orange-400 opacity-90 p-4 sm:p-5 px-8 sm:px-10 rounded-md text-white mt-5 sm:mt-10 md:mt-20 md:ml-10'>
+          <button className='bg-orange-400 opacity-90 p-4 sm:p-5 px-8 sm:px-10 rounded-md text-white mt-5 sm:mt-10 md:mt-20 md:ml-10 transition-transform transform hover:scale-105'>
             <p>Order Now</p>
           </button>
+        </div>
+      </div>
+      <div className='my-auto overflow-auto sm:mt-10 mx-auto w-10/12 py-10'>
+        <div className='mx-auto'>
+          <div className='overflow-x-auto flex md:justify-around xs:justify-between py-10'>
+            <div className='w-64 h-64 bg-gray-100 hover:bg-orange-400 hover:text-white mx-2 transition-transform transform hover:scale-105 shadow-lg hover:shadow-xl p-2'>
+              <p className='text-center pt-8 text-lg  font-semibold'>Supply</p>
+              <p className='text-center pt-8 text-lg '>PAN India supply</p>
+            </div>
+            <div className='w-64 h-64 bg-gray-100 hover:bg-orange-400 hover:text-white mx-2 transition-transform transform hover:scale-105 shadow-lg hover:shadow-xl p-2'>
+              <p className='text-center pt-8 text-lg font-semibold '>
+                Min Quantity
+              </p>
+              <p className='text-center pt-8 text-lg '>
+                No minimum Quantity requirement
+              </p>
+            </div>
+            <div className='w-64 h-64 bg-gray-100 hover:bg-orange-400 hover:text-white mx-2 transition-transform transform hover:scale-105 shadow-lg hover:shadow-xl p-2'>
+              <p className='text-center pt-8 text-lg font-semibold '>
+                Packaging
+              </p>
+              <p className='text-center pt-8 text-lg '>
+                Packed in premium materials with catalogue prints included
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
