@@ -56,7 +56,7 @@ export default function Home() {
   ];
 
   return (
-    <div className='bg-white flex flex-col'>
+    <div className='bg-white flex flex-col overflow-hidden'>
       <div className='w-11/12 bg-gray-100 mx-auto rounded-md mt-5 p-5 sm:p-10 md:p-20'>
         {/* Content in the first section */}
         <div className='mt-14 md:mt-10 flex-col md:flex-row flex'>

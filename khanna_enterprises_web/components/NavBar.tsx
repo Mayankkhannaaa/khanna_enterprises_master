@@ -34,22 +34,22 @@ const Navbar = () => {
             md:flex space-y-2 md:space-y-0 md:space-x-8 text-black`}
           >
             <li>
-              <Link href='/' className='hover:text-gray-300'>
+              <Link href='/' className='hover:text-orange-400'>
                 Home
               </Link>
             </li>
             <li>
-              <Link href='/about' className='hover:text-gray-300'>
+              <Link href='/about' className='hover:text-orange-400'>
                 About
               </Link>
             </li>
             <li>
-              <Link href='/services' className='hover:text-gray-300'>
+              <Link href='/services' className='hover:text-orange-400'>
                 Services
               </Link>
             </li>
             <li>
-              <Link href='/contact' className='hover:text-gray-300'>
+              <Link href='/contact' className='hover:text-orange-400'>
                 Contact
               </Link>
             </li>
