@@ -33,8 +33,8 @@ const ContactUsPage: NextPage<ContactUsPageProps> = () => {
   };
 
   return (
-    <div className='bg-white flex flex-col h-screen'>
-      <div className='w-11/12 bg-gray-100 mx-auto rounded-md mt-20 md:mt-5 p-5 sm:p-10 md:p-20'>
+    <div className='bg-gradient-to-bl from-green-400 to-blue-600 text-white flex flex-col h-screen'>
+      <div className='w-11/12 mx-auto rounded-md mt-20 md:mt-5 p-5 sm:p-10 md:p-20'>
         <h1 className='text-center text-xl'>Contact Us</h1>
         <div className='mt-10 w-11/12 md:w-2/3 mx-auto'>
           <form onSubmit={handleSubmit}>

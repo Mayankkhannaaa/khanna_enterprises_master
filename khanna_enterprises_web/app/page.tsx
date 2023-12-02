@@ -1,9 +1,10 @@
+'use client';
 import Image from 'next/image';
 import team0img from '../public/1033-removebg-preview.png';
 import girlCloth from '../public/girlPhoto.jpeg';
 import blackCloth from '../public/morflax-studio-removebg-preview.png';
 import blackTshirt from '../public/Isolated_black_t_shirt_opened-removebg-preview.png';
-
+import { useRouter } from 'next/navigation';
 import { Roboto } from 'next/font/google';
 import {
   Battery0Icon,
@@ -12,6 +13,7 @@ import {
   BoltIcon,
 } from '@heroicons/react/24/outline';
 import CardCarousel from '@/components/corousel';
+import Link from 'next/link';
 
 const roboto = Roboto({
   weight: '400',
@@ -20,6 +22,7 @@ const roboto = Roboto({
 });
 
 export default function Home() {
+  const router = useRouter();
   const cards = [
     {
       title: 'Card 1',
@@ -68,7 +71,9 @@ export default function Home() {
               </span>
             </p>
             <button className='bg-orange-400 opacity-90 p-4 sm:p-5 px-8 sm:px-10 rounded-md text-white mt-5 sm:mt-10 md:mt-20'>
-              <p>Shop Now</p>
+              <Link href='/products'>
+                <p>Shop Now</p>
+              </Link>
             </button>
           </div>
           <div className='w-full md:w-1/2'>
@@ -160,7 +165,12 @@ export default function Home() {
         <div className='mx-auto'>
           <div className='overflow-x-auto flex md:justify-around xs:justify-between py-10'>
             <div className='flex-none mx-2 shadow-lg hover:shadow-xl transition-transform transform hover:scale-105'>
-              <div className='flex flex-col items-center'>
+              <div
+                className='flex flex-col items-center'
+                onClick={() => {
+                  router.push('/products/123455');
+                }}
+              >
                 <Image
                   alt='team'
                   src={team0img}
